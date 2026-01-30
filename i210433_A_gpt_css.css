@@ -1,0 +1,131 @@
+/* General Page Style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #111;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 42px;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Gallery Section */
+#gallery {
+  padding: 40px;
+  text-align: center;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.gallery-container img {
+  width: 250px;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.05);
+}
+
+/* About Section */
+#about {
+  background: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#about p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 18px;
+}
+
+/* Feedback Section */
+#feedback {
+  padding: 50px 20px;
+}
+
+#feedback h2 {
+  text-align: center;
+}
+
+.feedback-box {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.feedback-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-box input,
+.feedback-box textarea {
+  padding: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.feedback-box button {
+  background: #111;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.feedback-box button:hover {
+  background: #333;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
