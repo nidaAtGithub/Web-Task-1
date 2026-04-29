@@ -1,0 +1,15 @@
+{
+  "/api/notifications/route": "app/api/notifications/route.js",
+  "/api/leads/route": "app/api/leads/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/analytics/route": "app/api/analytics/route.js",
+  "/login/page": "app/login/page.js",
+  "/api/followups/route": "app/api/followups/route.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/leads/page": "app/admin/leads/page.js",
+  "/admin/analytics/page": "app/admin/analytics/page.js",
+  "/admin/followups/page": "app/admin/followups/page.js",
+  "/agent/page": "app/agent/page.js",
+  "/agent/leads/page": "app/agent/leads/page.js",
+  "/agent/followups/page": "app/agent/followups/page.js"
+}
